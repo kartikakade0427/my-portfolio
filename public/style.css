@@ -1,60 +1,109 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
   box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
 body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: white;
-  line-height: 1.6;
+  background: #ffffff;
+  color: #1a1a1a;
 }
 
-header {
-  text-align: center;
-  padding: 60px 20px;
+/* HERO */
+.hero {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  padding: 80px;
+  gap: 60px;
 }
 
-header h1 {
-  font-size: 3rem;
+.hero-text {
+  flex: 1;
 }
 
-header p {
-  font-size: 1.2rem;
-  opacity: 0.9;
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 600;
 }
 
-section {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  background: rgba(255,255,255,0.05);
-  border-radius: 10px;
+.hero-text p {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #555;
 }
 
-h2 {
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #c6ff00;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hero-image img {
+  width: 380px;
+  border-radius: 4px;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  padding: 80px;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 360px;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background: #c6ff00;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact {
+  display: flex;
+  background: #c6ff00;
+  padding: 80px;
+  gap: 60px;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info p {
   margin-bottom: 15px;
-  color: #00eaff;
+  font-size: 14px;
 }
 
-.skills ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  list-style: none;
+.contact-image img {
+  width: 380px;
 }
-
-.skills li {
-  background: rgba(0,0,0,0.3);
-  padding: 10px;
-  margin: 5px;
-  border-radius: 6px;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  opacity: 0.7;
-}
-
