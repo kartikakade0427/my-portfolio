@@ -1,2 +1,1 @@
-console.log("Portfolio loaded successfully 🚀");
-
+console.log("Kartik Akade DevOps Portfolio Loaded 🚀");

@@ -3,58 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kartik Akade | Portfolio</title>
+  <title>Kartik Akade | DevOps Engineer</title>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- HERO SECTION -->
+<!-- NAVBAR -->
+<header class="navbar">
+  <h2>Kartik Akade</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="contact-btn">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO (DIAGONAL DESIGN) -->
 <section class="hero">
-  <div class="hero-text">
-    <h1>Hi, I’m Kartik Akade</h1>
-    <p>A DevOps Engineer focused on automation & cloud</p>
-    <a href="mailto:your@email.com" class="btn">EMAIL ME</a>
+  <div class="hero-left">
+    <h1>Hi, I’m <span>Kartik Akade</span></h1>
+    <p>DevOps Engineer | Cloud & Automation Enthusiast</p>
+
+    <div class="hero-buttons">
+      <a href="mailto:kartikakade0@gmail.com" class="btn">Email Me</a>
+      <a href="#projects" class="btn-outline">View Projects</a>
+    </div>
   </div>
 
-  <div class="hero-image">
-    <img src="profile.jpg" alt="Profile Photo">
+  <div class="hero-right">
+    <img src="profile.jpg.jpeg" alt="Kartik Akade">
   </div>
 </section>
 
-<!-- ABOUT SECTION -->
-<section class="about">
+<!-- ABOUT -->
+<section class="about" id="about">
   <div class="about-image">
-    <img src="profile.jpg" alt="About Image">
+    <img src="profile.jpg.jpeg" alt="About Kartik">
   </div>
 
   <div class="about-text">
     <span class="line"></span>
     <h2>Who Am I?</h2>
     <p>
-      I am a DevOps enthusiast with hands-on experience in Docker, AWS,
-      Terraform, and CI/CD pipelines. I love building automated,
-      scalable systems and modern cloud solutions.
+     I am a fourth-year Electronics and Computer Science Engineering student with a growing interest in the DevOps field. With a solid foundation in programming and systems thinking, I enjoy solving real-world problems through automation and collaboration.
+I’m passionate about bridging development and operations to improve efficiency, reliability, and scalability. Open to learning, experimenting, and contributing to impactful projects in fast-paced environments.
     </p>
   </div>
 </section>
 
-<!-- CONTACT SECTION -->
-<section class="contact">
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+  <div class="skill-grid">
+    <span>AWS</span>
+    <span>Docker</span>
+    <span>Kubernetes</span>
+    <span>Terraform</span>
+    <span>Linux</span>
+    <span>Git & GitHub</span>
+    <span>CI/CD</span>
+    <span>Jenkins</span>
+    <span>Shell Scripting</span>
+    <span>Networking</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>DevOps Portfolio Website</h3>
+      <p>Personal portfolio built using HTML, CSS, and GitHub Pages.</p>
+      <span>HTML • CSS • GitHub</span>
+    </div>
+
+    <div class="project-card">
+      <h3>AWS EC2 with Terraform</h3>
+      <p>Provisioned EC2 instances using Terraform with map variables.</p>
+      <span>AWS • Terraform</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Dockerized Applications</h3>
+      <p>Deployed Node.js & Gogs using Docker containers and networks.</p>
+      <span>Docker • Linux</span>
+    </div>
+
+    <div class="project-card">
+      <h3>CI/CD Pipeline</h3>
+      <p>Automated build and deployment using Jenkins and GitHub.</p>
+      <span>Jenkins • CI/CD</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
   <div class="contact-left">
-    <h2>Grow<br>with me.</h2>
-    <p>Let’s improve your processes together.</p>
+    <h2>Let’s Build<br>Something Great</h2>
+    <p>Open to DevOps, Cloud & Automation opportunities.</p>
 
     <div class="contact-info">
       <p><strong>PHONE</strong><br>+91 8010206923</p>
       <p><strong>EMAIL</strong><br>kartikakade0@gmail.com</p>
-      <p><strong>SOCIAL</strong><br>GitHub • LinkedIn</p>
-    </div>
-  </div>
+      <p>
+  <strong>SOCIAL</strong><br>
+  <a href="https://github.com/kartikakade0427" target="_blank">GitHub</a> |
+  <a href="https://www.linkedin.com/in/kartik-akade-a04601280" target="_blank">LinkedIn</a>
+</p>
 
-  <div class="contact-image">
-    <img src="profile.jpg" alt="Contact Image">
+    </div>
   </div>
 </section>
 
+<footer>
+  <p>© 2025 Kartik Akade | DevOps Engineer</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
